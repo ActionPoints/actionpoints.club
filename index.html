@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ActionPoints - To Do & Rewards App</title>
+    <!-- favicon CSS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
+    <!-- custom fonts -->
+    <link href="fonts/aileron.css?v=1" rel="stylesheet">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="css/plugins.min.css?v=1">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/app.css?v=1">
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="css/custom.css?v=1">
+</head>
+
+<body class="gradient-3" data-spy="scroll" data-target="#navbar-nav">
+    <!-- =========== Preloader Start ============ -->
+    <div class="preloader-main">
+        <div class="preloader-wapper">
+            <svg class="preloader" xmlns="http://www.w3.org/2000/svg" version="1.1" width="600" height="200">
+                <defs>
+                    <filter id="goo" x="-40%" y="-40%" height="200%" width="400%">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -8" result="goo" />
+                    </filter>
+                </defs>
+                <g filter="url(#goo)">
+                    <circle class="dot bg-fill-primary " cx="50" cy="50" r="25" />
+                    <circle class="dot" cx="50" cy="50" r="25" fill="#4c83ff" />
+                </g>
+            </svg>
+            <div>
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+        </div>
+    </div>
+    <!-- =========== Preloader End ============ -->
+
+    <div class="main">
+        <!-- =========== Start of Navigation (main menu) ============ -->
+        <header class="navbar navbar-expand-lg navbar-dark mt-3">
+            <div class="container position-relative">
+                <a class="navbar-brand mr-70" href="index.html">
+                    <img class="navbar-brand__regular" style="height: 50px;" src="img/brand-logo-white.png" alt="brand-logo">
+                </a>
+                <!--  End of brand logo -->
+            </div>
+            <!-- end of container -->
+        </header>
+        <!-- =========== End of Navigation (main menu)  ============ -->
+
+        <!-- =========== Start of Hero ============ -->
+        <section class="space-bottom--lg hero hero--dark bg-color-primary hidden">
+            <div class="background-holder background-holder--left-top background-holder--auto">
+                <img src="img/wave-1.png" alt="wave" class="background-image-holder">
+            </div>
+            <!-- end of top left image -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-lg-flex align-items-lg-start position-relative text-md-center">
+                            <div class="background-holder background-holder--right-bottom background-holder--auto ml-lg-5 d-none d-lg-block z-index-1">
+                                <img src="img/dots-pattern-3.png" alt="wave" class="background-image-holder">
+                            </div>
+                            <!-- end of dots -->
+                            <!-- end of mobile image -->
+                            <div class="hero-content py-lg-5 pb-80 text-left mt-5 mt-md-1">
+                                <h1 class="hero__title font-w-400">Perform Massive Actions <br> Receive Rewards</h1>
+                                <p class="lead hero__description">ActionPoints is the real motivational To Do App. For each completed action you receive coins. Then you spend coins on real life rewards. Application
+                                will help you to maintain life-work balance.</p>
+                                <div class="button-group flex-column flex-sm-row mb-30">
+                                    <a href="https://apps.apple.com/us/app/actionpoints-to-do-rewards/id1543600473" target="_blank" class="mr-sm-3 mb-10 mb-sm-0 box-shadow-2 rounded-md btn-3d-hover transition-default">
+                                        <img src="img/app-store.png" class="rounded-md" alt="app-store"></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.actionpoints" target="_blank" class="box-shadow-2 rounded-md btn-3d-hover transition-default">
+                                        <img src="img/google-play.png" class="rounded-md" alt="google-play"></a>
+                                </div>
+                            </div>
+                            <!-- end of content -->
+                            <picture class="hero__image mb-lg-40 mb-lg-0 pos-abs-lg-top-right">
+                                <img src="img/mobile-1.png" alt="hero-image">
+                            </picture>
+                        </div>
+                    </div>
+                    <!-- end of col -->
+                </div>
+                <!-- end of row -->
+            </div>
+            <!-- end of container -->
+            <div class="hero__shape">
+                <img src="img/hero-svg-shape-3.svg" alt="hero bg" class="svg">
+            </div>
+            <!-- end of hero svg shape -->
+        </section>
+        <!-- =========== End of Hero ============ -->
+
+        <!-- =========== Start of Features ============ -->
+        <section class="space-top" id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-7 col-xl-6 mx-auto">
+                        <div class="section-title reveal text-center mb-80">
+                            <p class="mb-10 text-uppercase font-w-700">How it works?</p>
+                            <h3 class="font-w-400">A simple way to boost your performance</h3>
+                        </div>
+                        <!-- end of section title -->
+                    </div>
+                </div>
+                <!-- end of row -->
+                <div class="row border-bottom-light space-bottom reveal">
+                    <div class="col-12 col-md-6 col-lg-4 mb-30 mb-lg-0">
+                        <div class="features">
+                            <div class="d-flex mb-20">
+                                <span class="mr-20">
+                                    <img src="img/tick.png" style="height: 38px; width: 38px;" alt="family">
+                                </span>
+                                <h5>Perform Actions</h5>
+                            </div>
+                            <p>Add all actions that should be completed. The action can be any task that will lead you to the dream life.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end of col -->
+                    <div class="col-12 col-md-6 col-lg-4 mb-30 mb-lg-0">
+                        <div class="features">
+                            <div class="d-flex mb-20">
+                                <span class="mr-20">
+                                    <img src="img/coins.png" style="height: 38px; width: 38px;" alt="communication">
+                                </span>
+                                <h5>Receive Coins</h5>
+                            </div>
+                            <p>Receive coins reward for each action completed. You choose how many coins you will get for each action.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end of col -->
+                    <div class="col-12 col-md-6 col-lg-4 mb-30 mb-lg-0">
+                        <div class="features">
+                            <div class="d-flex mb-20">
+                                <span class="mr-20">
+                                    <img src="img/reward.png" style="height: 38px; width: 38px;" alt="management">
+                                </span>
+                                <h5>Get Rewards for Coins</h5>
+                            </div>
+                            <p>Select the rewards that you would like to receive for completing the actions. Customize the cost of each reward.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end of col -->
+                </div>
+                <!-- end of row -->
+            </div>
+            <!-- end of container -->
+        </section>
+        <!-- =========== End of Features ============ -->
+
+        <!-- =========== Start of Footer ============ -->
+        <footer class="footer position-relative">
+            <!-- end of main footer -->
+            <div class="bg-color-grey py-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-md-flex justify-content-between align-items-center">
+                            <nav class="nav">
+                                <ul class="d-flex mb-md-0">
+                                    &copy ActionPoints 2021
+                                </ul>
+                            </nav>
+                            <!-- end of mini footer nav -->
+                            <div class="d-flex justify-content-between ml-auto mb-md-0">
+                                <nav class="nav">
+                                    <ul class="d-flex mb-md-0">
+                                        <li><a href="mailto:support@actionpoints.club">Contact Us</a></li>
+                                        <li><a href="/terms-of-use.html">Terms of Use</a></li>
+                                        <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                                    </ul>
+                                </nav>
+                                <!-- end of language selector -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of container -->
+            </div>
+            <!-- mini footer end -->
+        </footer>
+        <!-- =========== End of Footer ============ -->
+    </div>
+    <script src="js/plugins.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
